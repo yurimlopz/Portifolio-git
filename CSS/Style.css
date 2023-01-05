@@ -8,7 +8,7 @@
 
 /* Animação */
 
-@keyframes scale-up-top {
+@keyframes entra-tela-sobre {
     0% {
       -webkit-transform: scale(0.5);
               transform: scale(0.5);
@@ -24,7 +24,7 @@
     }
 }
 
-@keyframes scale-in-center {
+@keyframes conteudo-sobre {
     0% {
       -webkit-transform: scale(0);
               transform: scale(0);
@@ -37,7 +37,7 @@
     }
 }
 
-@keyframes shadow-pop-tl {
+@keyframes entra-tela-projetos {
     0% {
       -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
               box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
@@ -102,7 +102,7 @@ ul a {
 
 nav>button {
     display: none;
-    background-color: #000;
+    background-color: currentColor;
 }
 
 /* TELA INICIO */
@@ -189,7 +189,7 @@ aside{
     display: flex;
     gap:.5rem;
     background-image: linear-gradient(to right, #F2F2F0 , #0F1314);
-    animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;  
+    animation: entra-tela-sobre 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;  
 }
 
 .box-aside{
@@ -199,7 +199,7 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    animation: scale-in-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: conteudo-sobre 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     color: #0D0D0D;
 }
 
@@ -301,7 +301,7 @@ aside{
     align-items: center;
     gap: .5em;
     padding: .5em;
-    animation: shadow-pop-tl 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+    animation: entra-tela-projetos 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
 
 .project > h1{
@@ -316,6 +316,12 @@ aside{
     color: black;
     border-color: black;
     box-shadow: 0 0 10px 0 grey inset, 0 0 0 0 grey;
+}
+
+.load{
+    width: 250px;
+    border: solid 5px red;
+    border-radius:30% ;
 }
 
 .project a:hover{
