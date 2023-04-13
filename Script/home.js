@@ -33,5 +33,4 @@ function type() {
     }
 }
 
-
 setInterval(type, 200);
