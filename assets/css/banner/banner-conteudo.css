@@ -1,0 +1,12 @@
+.banner__conteudo{
+    width: 100%;
+    height: auto;
+    color: var(--branco);
+    left: 50%;
+    position: absolute;
+    padding: 2rem;
+    text-align: center;
+    text-shadow: 0 4px 4px rgb(0 0 0 / 75%);
+    top: 50%;
+    transform: translate(-50%, -50%) ;
+}

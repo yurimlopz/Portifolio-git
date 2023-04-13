@@ -1,0 +1,13 @@
+.cartao__conteudo{
+    display: flex;
+    padding: .3rem;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.conteudo{
+    margin-bottom: 1.3rem;
+    padding-left:.5rem;
+    color: var(--azul-marinho);
+}
