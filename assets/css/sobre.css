@@ -2,16 +2,10 @@
     flex-direction: row-reverse;
     background: var(--branco);
     display: flex;
-    padding: 2.5rem;
+    padding: 3rem 3rem;
+    flex-wrap: wrap;
     gap:2rem;
-    width: 100%;
     height: auto;
+    
 }
 
-@media screen and (max-width: 800px) {
-    .sobre{
-        padding: 2.5rem 1rem;
-        flex-wrap: wrap;
-        gap: 1.2rem;
-    }    
-}

@@ -1,6 +1,7 @@
 :root {
     --branco: #fafafa;
     --azul-claro: #EAF2FD;
+    --azul-marinho-fraco:#2A7AE4;
     --vermelho-forte: #B72E2E;
     --cinza-escuro: #4F4C4C;
     --cinza-claro: #F7F4F4;
@@ -24,7 +25,7 @@
 }
 
 .container {
-    padding-right: 6%;
+     padding-right: 6%;
     padding-left: 6%;
 }
 

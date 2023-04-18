@@ -19,7 +19,7 @@ function toggleMenu(e){
 }
 
 /* Events */
-btnMobile.addEventListener("click", toggleMenu);
-btnMobile.addEventListener("touchstart", toggleMenu);
+
+
 
 

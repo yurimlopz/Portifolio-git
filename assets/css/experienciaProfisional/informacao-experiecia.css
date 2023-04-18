@@ -1,0 +1,16 @@
+.informacao__experiencia{
+    border: solid 1px blue;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+
+    padding: 1rem;
+
+}
+
+.informacao__experiencia :nth-child(3){
+    background-color: var(--branco);
+    color: var(--azul-marinho-fraco);
+}
+
+

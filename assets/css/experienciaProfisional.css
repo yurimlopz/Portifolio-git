@@ -1,0 +1,8 @@
+.experienciaProfisional{
+    padding: 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+   background-color: red;
+}

@@ -7,7 +7,6 @@
     <!-- Link Reset css -->
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/normalize.css">
-    <link rel="stylesheet" href="../assets/css/Style.css">
     <!-- Base css -->
     <link rel="stylesheet" href="../assets/css/base.css">
     <!-- Cabecalho css -->
@@ -26,6 +25,7 @@
     <link rel="stylesheet" href="../assets/css/banner/banner-conteudo.css">
     <!-- Sobre -->
     <link rel="stylesheet" href="../assets/css/sobre.css">
+    <link rel="stylesheet" href="../assets/css/sobre/sobre-conteudo.css">
     <link rel="stylesheet" href="../assets/css/sobre/sobre-img.css">
     <link rel="stylesheet" href="../assets/css/sobre/sobre-titulo.css">
     <link rel="stylesheet" href="../assets/css/sobre/sobre.descricao.css">
@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="../assets/css/skillHobbies/skillHobbies-cartao.css">
     <link rel=" stylesheet" href="../assets/css/skillHobbies/skillHobbues-titulo.css">
     <link rel="stylesheet" href="../assets/css/skillHobbies/skillHobbies-item.css">
-    <link rel="stylesheet" href="../assets/css/skillHobbies/cartao-contudo.css">
+    <link rel="stylesheet" href="../assets/css/skillHobbies/cartao-conteudo.css">
     <!-- Formaçao -->
     <link rel="stylesheet" href="../assets/css/formacao-container.css">
     <link rel="stylesheet" href="../assets/css/formacao/formacao.css">
@@ -42,10 +42,15 @@
     <link rel="stylesheet" href="../assets/css/formacao/formacao-imagem.css">
     <link rel="stylesheet" href="../assets/css/formacao/descricao-formacao.css">
     <link rel="stylesheet" href="../assets/css/formacao/data-formacao.css">
-    <link rel="stylesheet" href="../assets/css/formacao/formacao-item.css">
     <link rel="stylesheet" href="../assets/css/formacao/formacao-titulo.css">
     <link rel="stylesheet" href="../assets/css/formacao/img-formacao.css">
     <link rel="stylesheet" href="../assets/css/formacao/titulo-formacao.css">
+    <!-- experienciaProfisional -->
+    <link rel="stylesheet" href="../assets/css/experienciaProfisional.css">
+    <link rel="stylesheet" href="../assets/css/experienciaProfisional/experienciaProfisional-titulo.css">
+    <link rel="stylesheet" href="../assets/css/experienciaProfisional/experiencia.css">
+    <link rel="stylesheet" href="../assets/css/experienciaProfisional/informacao-experiecia.css">
+    <link rel="stylesheet" href="../assets/css/experienciaProfisional/experiencia-botao.css"> 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -95,7 +100,7 @@
     </section>
     <section class="container sobre">
         <img src="../assets/img/roberta.jpg" alt="Foto de perfil" class="sobre__img">
-        <div>
+        <div class="sobre__conteudo">
             <h1 class="sobre__titulo">Sobre</h1>
             <p class="sobre__descricao">
                 Tenho 26 anos , Brasileiro , e sou formado em técnico em mecanica pelo IFSC, atualmente estou cursando
@@ -114,8 +119,8 @@
         <ul class="skillsHobbies__cartao">
             <li class="skillHobbies__item">
                 <article class="cartao__conteudo">
-                    <span style="width: 300px;">
-                        <i class="fa-brands fa-html5 fa-2xl conteudo"></i>
+                    <span>
+                        <i class="fa-brands fa-html5 conteudo"></i>
                     </span>
 
                     <p>HTML 5</p>
@@ -125,7 +130,7 @@
             <li class="skillHobbies__item">
                 <article class="cartao__conteudo">
                     <span>
-                        <i class="fa-brands fa-square-js fa-2xl conteudo"></i>
+                        <i class="fa-brands fa-square-js conteudo"></i>
                     </span>
                     <p>JavaScript</p>
                 </article>
@@ -133,7 +138,7 @@
             <li class="skillHobbies__item">
                 <article class="cartao__conteudo">
                     <span>
-                        <i class="fa-brands fa-node fa-2xl conteudo"></i>
+                        <i class="fa-brands fa-node conteudo"></i>
                     </span>
                     <p>Node JS</p>
                 </article>
@@ -141,7 +146,7 @@
             <li class="skillHobbies__item">
                 <article class="cartao__conteudo">
                     <span>
-                        <i class="fa-brands fa-react fa-2xl conteudo"></i>
+                        <i class="fa-brands fa-react conteudo"></i>
                     </span>
                     <p>React</p>
                 </article>
@@ -149,7 +154,7 @@
             <li class="skillHobbies__item">
                 <article class="cartao__conteudo">
                     <span>
-                        <i class="fa-brands fa-css3-alt fa-2xl conteudo"></i>
+                        <i class="fa-brands fa-css3-alt conteudo"></i>
                     </span>
                     <p>CSS</p>
                 </article>
@@ -162,7 +167,7 @@
             <li class="skillHobbies__item">
                 <article class="cartao__conteudo">
                     <span>
-                        <i class="fa-solid fa-dumbbell fa-2xl conteudo"></i>
+                        <i class="fa-solid fa-dumbbell conteudo"></i>
                     </span>
                     <p>Praticar esportes</p>
                 </article>
@@ -170,7 +175,7 @@
             <li class="skillHobbies__item">
                 <article class="cartao__conteudo">
                     <span>
-                        <i class="fa-sharp fa-solid fa-computer fa-2xl conteudo"></i>
+                        <i class="fa-sharp fa-solid fa-computer conteudo"></i>
                     </span>
                     <p>Estudar tecnologia</p>
                 </article>
@@ -178,7 +183,7 @@
             <li class="skillHobbies__item">
                 <article class="cartao__conteudo">
                     <span>
-                        <i class="fa-solid fa-route fa-2xl conteudo"></i>
+                        <i class="fa-solid fa-route conteudo"></i>
                     </span>
 
                     <p>Viajar</p>
@@ -187,7 +192,7 @@
             <li class="skillHobbies__item">
                 <article class="cartao__conteudo">
                     <span>
-                        <i class="fa-solid fa-utensils fa-2xl conteudo"></i>
+                        <i class="fa-solid fa-utensils conteudo"></i>
                     </span>
                     <p>Cozinhar</p>
                 </article>
@@ -195,7 +200,7 @@
             <li class="skillHobbies__item">
                 <article class="cartao__conteudo">
                     <span>
-                        <i class="fa-solid fa-headphones fa-2xl conteudo"></i>
+                        <i class="fa-solid fa-headphones conteudo"></i>
                     </span>
                     <p>Ouvir Musica</p>
                 </article>
@@ -234,33 +239,33 @@
             </div>
         </div>
     </section>
-    <section class="experienciaProfisional">
+    <section class="experienciaProfisional container">
         <h2 class="experienciaProfisional__titulo">Experiencia Profisional</h2>
         <article class="experiencia">
-            <img width="450px" height="" src="../assets/img/projeto-criptografia.png" alt="">
+            <img class="teste" width="600px" height="406px" src="../assets/img/projeto-criptografia.png" alt="">
             <div class="informacao__experiencia">
                 <h3 class="titulo__projeto">Decodificador de texto</h3>
                 <p class="texto__projeto">Challange alura codificador</p>
-                <a href="">Repositorio</a>
-                <a href="">Ver demo</a>
+                <a class="experiencia__botao" href="">Repositorio</a>
+                <a class="experiencia__botao"href="">Ver demo</a>
             </div>
         </article>
         <article class="experiencia">
-            <img width="450px" height="" src="../assets/img/projeto-criptografia.png" alt="">
             <div class="informacao__experiencia">
                 <h3 class="titulo__projeto">Decodificador de texto</h3>
                 <p class="texto__projeto">Challange alura codificador</p>
-                <a href="">Repositorio</a>
-                <a href="">Ver demo</a>
+                <a class="experiencia__botao"href="">Repositorio</a>
+                <a class="experiencia__botao"href="">Ver demo</a>
             </div>
+            <img width="600px" height="406px" src="../assets/img/projeto-criptografia.png" alt="">
         </article>
         <article class="experiencia">
-            <img width="450px" height="" src="../assets/img/projeto-criptografia.png" alt="">
+            <img width="600px" height="406" src="../assets/img/projeto-criptografia.png" alt="">
             <div class="informacao__experiencia">
                 <h3 class="titulo__projeto">Decodificador de texto</h3>
                 <p class="texto__projeto">Challange alura codificador</p>
-                <a href="">Repositorio</a>
-                <a href="">Ver demo</a>
+                <a class="experiencia__botao"href="">Repositorio</a>
+                <a class="experiencia__botao" href="">Ver demo</a>
             </div>
         </article>
     </section>

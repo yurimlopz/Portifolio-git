@@ -1,0 +1,11 @@
+.experiencia__botao{
+    background-color: var(--azul-marinho-fraco);
+    border: none;
+    border-radius: 3px;
+    color: #fdfdfd;
+    padding: .5rem;
+    transition: all .1s ease-in-out;
+    text-decoration: none;
+    max-width: 105px;
+}   
+    
