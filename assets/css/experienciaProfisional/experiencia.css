@@ -3,14 +3,18 @@
     background-color: var(--verde-musgo);
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 2rem;
 }
 
-@media screen and (max-width:768px) {
+
+@media screen and (max-width:936px) {
     .experiencia{
-        justify-content: flex-start;
+        flex-direction: column;
+        align-items: inherit;
     }
 
-   
+    .experiencia:nth-child(odd){
+        flex-direction: column-reverse;
+    }
+    
 }
