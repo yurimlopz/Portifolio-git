@@ -1,14 +1,11 @@
 .informacao__experiencia{
-    border: solid 1px blue;
     display: flex;
     flex-direction: column;
-    gap: .3rem;
-
     padding: 1rem;
-
+    gap:.5rem;
 }
 
-.informacao__experiencia :nth-child(3){
+.informacao__experiencia div :nth-child(1){
     background-color: var(--branco);
     color: var(--azul-marinho-fraco);
 }

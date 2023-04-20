@@ -1,4 +1,5 @@
 .sobre__titulo{
     border-left:solid 8px var(--bg-chamada-mobile) ;
     padding-left:.3rem ;
+    margin-bottom: 1rem;
 }

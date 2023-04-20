@@ -1,7 +1,7 @@
 .formacao{
-    display: flex;
+    display: grid;
     margin: 0 auto;
-    width: 1000px;
+    grid-template-columns: repeat(auto-fit,minmax(296px,1fr));
     max-width: 100%;
     flex-wrap: wrap;
     justify-content: center;

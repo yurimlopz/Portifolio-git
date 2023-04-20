@@ -1,11 +1,14 @@
 .experiencia{
     align-items: center;
-    background-color: var(--verde-musgo);
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: .5rem;
+   
 }
 
+.experiencia:nth-child(odd){
+    justify-content: flex-end;
+}
 
 @media screen and (max-width:936px) {
     .experiencia{

@@ -1,6 +1,6 @@
 .experiencia__botao{
     background-color: var(--azul-marinho-fraco);
-    border: none;
+    border: solid 1px var(--azul-marinho-fraco);
     border-radius: 3px;
     color: #fdfdfd;
     padding: .5rem;
