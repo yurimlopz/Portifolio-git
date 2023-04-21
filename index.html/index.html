@@ -283,6 +283,41 @@
             </div>
         </article>
     </section>
+    <section class="contato">
+        <h2 class="titulo__contato">Contato</h2>
+        <div>
+            <img width="464px" height="593" src="../assets/img/pexels-cottonbro-studio-3202235.jpg">
+        </div>
+        
+        <form action="">
+            <fieldset>
+            <legend class="formulario__contato">Quer entrar em contato comigo?<br>
+                prencha o formulário ao lado e entrarei em contato o mais rapido posivel.
+            </legend>
+                <div class="input__contato">
+                    <input class="input" name="nome" type="text" placeholder="Nome" data-tipo="nome" required>
+                    <label for="nome" class="input__label">Nome</label>
+                    <span class="input__mensagem__erro">O campo nome não pode estar vazio</span>
+                </div>
+                <div class="input__contato">
+                    <input name="email" id="email" class="input" type="email" placeholder="Email" data-tipo="email" required>
+                    <label class="input__label" for="email">Email</label>
+                    <span class="input__mensagem__erro">O campo email não pode estar vazio</span>
+                </div>
+                <div class="input__contato">
+                    <input name="assunto" id="assunto" class="input" type="assunto" placeholder="assunto" data-tipo="text" required>
+                    <label class="input__label" for="email">Assunto</label>
+                    <span class="input-mensagem__erro">O assunto email não pode estar vazio</span>
+                </div>
+                <div class="input__contato">
+                    <input name="mensagem" id="mensagem" class="input" type="text" placeholder="Mensagem" data-tipo="mensagem" required>
+                    <label class="input__label" for="mensagem">Mensagem</label>
+                    <span class="input-mensagem__erro">A mensagem não pode estar vazio</span>
+                </div>
+            </fieldset>
+            <button class="botao">Enviar mensagem</button>
+        </form>
+    </section> 
 
     <script src="../Script/home.js"></script>
     <script src="../Script/main.js"></script>
