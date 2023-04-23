@@ -41,8 +41,7 @@
     <link rel="stylesheet" href="../assets/css/formacao/cartao-formacao.css">
     <link rel="stylesheet" href="../assets/css/formacao/descricao-formacao.css">
     <link rel="stylesheet" href="../assets/css/formacao/data-formacao.css">
-
-    <link rel="stylesheet" href="../assets/css/formacao/img-formacao.css">
+    <link rel="stylesheet" href="../assets/css/formacao/formacao-imagem.css">
     <link rel="stylesheet" href="../assets/css/formacao/titulo-formacao.css">
     <!-- experienciaProfisional -->
     <link rel="stylesheet" href="../assets/css/experienciaProfisional.css">
@@ -302,28 +301,28 @@
                             prencha o formulário ao lado e entrarei em contato o mais rapido posivel.
                         </p>
                     </legend>
-                    <div class="input__contato inputContato__invalido">
+                    <div class="input__contato">
                         <input class="input" name="nome" type="text" placeholder="" data-tipo="nome" required>
                         <label for="nome" class="input__label">Nome</label>
-                        <span class="input-mensagem__erro">O campo nome não pode estar vazio</span>
+                        <span class="inputMensagem__erro"></span>
                     </div>
                     <div class="input__contato">
                         <input name="email" id="email" class="input" type="email" placeholder="" data-tipo="email"
                             required>
                         <label class="input__label" for="email">Email</label>
-                        <span class="input-mensagem__erro">O campo email não pode estar vazio</span>
+                        <span class="inputMensagem__erro"></span>
                     </div>
                     <div class="input__contato">
-                        <input name="assunto" id="assunto" class="input" type="assunto" placeholder="" data-tipo="text"
+                        <input name="assunto" id="assunto" class="input" type="assunto" placeholder="" data-tipo="assunto"
                             required>
                         <label class="input__label" for="email">Assunto</label>
-                        <span class="input-mensagem__erro">O assunto email não pode estar vazio</span>
+                        <span class="inputMensagem__erro"></span>
                     </div>
                     <div class="input__contato">
                         <input name="mensagem" id="mensagem" class="input" type="text" placeholder=""
                             data-tipo="mensagem" required>
                         <label class="input__label" for="mensagem">Mensagem</label>
-                        <span class="input-mensagem__erro">A mensagem não pode estar vazio</span>
+                        <span class="inputMensagem__erro"></span>
                     </div>
                 </fieldset>
                 <button class="botao__contato">Enviar mensagem</button>
@@ -333,7 +332,8 @@
 
     <script src="../Script/home.js"></script>
     <script src="../Script/main.js"></script>
-    <script src="../Script/app.js"></script>
+    <script src="../Script/app.js" type="module"></script>
+    <script src="../Script/validacao.js" type="module"></script>
 
 </body>
 

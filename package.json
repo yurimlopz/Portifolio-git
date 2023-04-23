@@ -1,0 +1,21 @@
+{
+  "name": "portifolio",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Portifolio",
+  "main": "validacao.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurimlopz/Portifolio-git.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yurimlopz/Portifolio-git/issues"
+  },
+  "homepage": "https://github.com/yurimlopz/Portifolio-git#readme"
+}
+

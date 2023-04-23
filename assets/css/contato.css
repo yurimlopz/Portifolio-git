@@ -43,12 +43,12 @@
 }
 
 .inputContato__invalido .input{
-    border: solid 1px red;
+    border: solid 1px var(--vermelho-forte);
 
 }
 
 .inputContato__invalido .input__label{
-    color: red;
+    color: var(--vermelho-forte);
 }
 
 @media screen and (max-width: 768px) {

@@ -25,6 +25,13 @@
     transition: all .25s;
 }
 
-.input-mensagem__erro{
-   color: red;
+.input:not(:placeholder-shown) + .input__label, .input:focus + .input__label {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all .25s;
+}
+
+
+.inputMensagem__erro{
+   color: var(--vermelho-forte);
 }
