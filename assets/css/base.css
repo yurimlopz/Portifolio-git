@@ -5,6 +5,7 @@
 }
 :root {
     --branco: #fafafa;
+    --input:#d6eaff;
     --azul-claro: #EAF2FD;
     --azul-marinho-fraco:#2A7AE4;
     --vermelho-forte: #B72E2E;
@@ -27,8 +28,8 @@
 
 
     --montserrat :'montserrat', sans-serif
-}
 
+}
 
 
 .container {

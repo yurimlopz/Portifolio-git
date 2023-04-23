@@ -1,0 +1,59 @@
+.contato{
+    display: flex;
+    background-color: var(--azul-claro);
+    justify-content: space-between;
+    padding-top: 5rem;
+    gap: 1rem;
+
+
+}
+
+.formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#mensagem{
+    height: 136px;
+}
+
+.formulario__contato{
+    margin-bottom: 1rem;
+}
+
+.titulo__contato{
+    margin-bottom: .5rem;
+}
+.botao__contato{
+    background-color: var(--azul-marinho-fraco);
+    border: solid 1px var(--azul-marinho-fraco);
+    color: rgb(253, 253, 253);
+    cursor: pointer;
+    padding: .5rem; 
+    text-decoration: none;
+    max-width: 165px;
+    height: 51px;
+}
+
+.inputContato__invalido{
+    margin-bottom: .5rem;
+
+}
+
+.inputContato__invalido .input{
+    border: solid 1px red;
+
+}
+
+.inputContato__invalido .input__label{
+    color: red;
+}
+
+@media screen and (max-width: 768px) {
+    .contato__imagem{
+        display: none;
+    }
+    
+}

@@ -39,10 +39,9 @@
     <link rel="stylesheet" href="../assets/css/formacao-container.css">
     <link rel="stylesheet" href="../assets/css/formacao/formacao.css">
     <link rel="stylesheet" href="../assets/css/formacao/cartao-formacao.css">
-    <link rel="stylesheet" href="../assets/css/formacao/formacao-imagem.css">
     <link rel="stylesheet" href="../assets/css/formacao/descricao-formacao.css">
     <link rel="stylesheet" href="../assets/css/formacao/data-formacao.css">
-    <link rel="stylesheet" href="../assets/css/formacao/formacao-titulo.css">
+
     <link rel="stylesheet" href="../assets/css/formacao/img-formacao.css">
     <link rel="stylesheet" href="../assets/css/formacao/titulo-formacao.css">
     <!-- experienciaProfisional -->
@@ -53,6 +52,9 @@
     <link rel="stylesheet" href="../assets/css/experienciaProfisional/experiencia-botao.css">
     <link rel="stylesheet" href="../assets/css/experienciaProfisional/experiencia-imagem.css">
     <link rel="stylesheet" href="../assets/css/experienciaProfisional/caixa-imagem.css">
+    <!-- Contato -->
+    <link rel="stylesheet" href="../assets/css/contato.css">
+    <link rel="stylesheet" href="../assets/css/contato/input-contato.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -199,7 +201,7 @@
                     <p>Cozinhar</p>
                 </article>
             </li>
-           <li class="skillHobbies__item">
+            <li class="skillHobbies__item">
                 <article class="cartao__conteudo">
                     <span>
                         <i class="fa-solid fa-headphones conteudo"></i>
@@ -213,27 +215,28 @@
         <h2 class="formacao__titulo">Formação acadêmica</h2>
         <div class="formacao">
             <div class="cartao__formacao">
-                
-                    <img class="formacao__imagem" src="../assets/img/ifsc.png" alt="ifsc logo">
-                
+
+                <img class="formacao__imagem" src="../assets/img/ifsc.png" alt="ifsc logo">
+
                 <article class="descricao__formacao">
                     <h3 class="titulo__formacao">IFSC - Técnico em mecânica Industrial</h3>
                     <p class="data__fomacao">2020 - IFSC</p>
                 </article>
-            </div>            
+            </div>
             <div class="cartao__formacao">
-                
-                    <img class="formacao__imagem" src="../assets/img/alura.png" alt="alura logo">
-                
+
+                <img class="formacao__imagem" src="../assets/img/alura.png" alt="alura logo">
+
                 <article class="descricao__formacao">
                     <h3 class="titulo__formacao">Desenvolvedor Front End</h3>
                     <p class="data__formacao">Cursando - ALURA</p>
                 </article>
             </div>
             <div class="cartao__formacao">
-                
-                    <img class="formacao__imagem" src="../assets/img/escola-ingles.png" width="192" height="147" alt="voo idiomas logo">
-            
+
+                <img class="formacao__imagem" src="../assets/img/escola-ingles.png" width="192" height="147"
+                    alt="voo idiomas logo">
+
                 <article class="descricao__formacao">
                     <h3 class="titulo__formacao">Inglês</h3>
                     <p class="data__fomacao">Cursando - VOO IDIOMAS</p>
@@ -244,7 +247,7 @@
     <section class="experienciaProfisional container">
         <h2 class="experienciaProfisional__titulo">Experiencia Profisional</h2>
         <article class="experiencia">
-            <div  class="caixa__imagem">
+            <div class="caixa__imagem">
                 <img class="experiencia__imagem" src="../assets/img/projeto-criptografia.png" alt="">
             </div>
             <div class="informacao__experiencia">
@@ -252,7 +255,7 @@
                 <p class="texto__projeto">Challange alura codificador</p>
                 <div>
                     <button class="experiencia__botao" href="">Repositorio</button>
-                    <button class="experiencia__botao"href="">Ver demo</button>
+                    <button class="experiencia__botao" href="">Ver demo</button>
                 </div>
             </div>
         </article>
@@ -261,8 +264,8 @@
                 <h3 class="titulo__projeto">Decodificador de texto</h3>
                 <p class="texto__projeto">Challange alura codificador</p>
                 <div>
-                    <button class="experiencia__botao"href="">Repositorio</button>
-                    <button class="experiencia__botao"href="">Ver demo</button>
+                    <button class="experiencia__botao" href="">Repositorio</button>
+                    <button class="experiencia__botao" href="">Ver demo</button>
                 </div>
             </div>
             <div class="caixa__imagem">
@@ -283,44 +286,54 @@
             </div>
         </article>
     </section>
-    <section class="contato">
-        <h2 class="titulo__contato">Contato</h2>
-        <div>
-            <img width="464px" height="593" src="../assets/img/pexels-cottonbro-studio-3202235.jpg">
-        </div>
+    <section class="container contato">
+       
         
-        <form action="">
-            <fieldset>
-            <legend class="formulario__contato">Quer entrar em contato comigo?<br>
-                prencha o formulário ao lado e entrarei em contato o mais rapido posivel.
-            </legend>
-                <div class="input__contato">
-                    <input class="input" name="nome" type="text" placeholder="Nome" data-tipo="nome" required>
-                    <label for="nome" class="input__label">Nome</label>
-                    <span class="input__mensagem__erro">O campo nome não pode estar vazio</span>
-                </div>
-                <div class="input__contato">
-                    <input name="email" id="email" class="input" type="email" placeholder="Email" data-tipo="email" required>
-                    <label class="input__label" for="email">Email</label>
-                    <span class="input__mensagem__erro">O campo email não pode estar vazio</span>
-                </div>
-                <div class="input__contato">
-                    <input name="assunto" id="assunto" class="input" type="assunto" placeholder="assunto" data-tipo="text" required>
-                    <label class="input__label" for="email">Assunto</label>
-                    <span class="input-mensagem__erro">O assunto email não pode estar vazio</span>
-                </div>
-                <div class="input__contato">
-                    <input name="mensagem" id="mensagem" class="input" type="text" placeholder="Mensagem" data-tipo="mensagem" required>
-                    <label class="input__label" for="mensagem">Mensagem</label>
-                    <span class="input-mensagem__erro">A mensagem não pode estar vazio</span>
-                </div>
-            </fieldset>
-            <button class="botao">Enviar mensagem</button>
-        </form>
-    </section> 
+            <div class="contato__imagem">
+                <img width="464px" height="593" src="../assets/img/pexels-cottonbro-studio-3202235.jpg">
+            </div>
+
+            <form class="formulario" action="">
+                <fieldset>
+                    <legend class="formulario__contato">
+                        <h2 class="titulo__contato">Contato</h2>
+                        <p>
+                            Quer entrar em contato comigo?<br>
+                            prencha o formulário ao lado e entrarei em contato o mais rapido posivel.
+                        </p>
+                    </legend>
+                    <div class="input__contato inputContato__invalido">
+                        <input class="input" name="nome" type="text" placeholder="" data-tipo="nome" required>
+                        <label for="nome" class="input__label">Nome</label>
+                        <span class="input-mensagem__erro">O campo nome não pode estar vazio</span>
+                    </div>
+                    <div class="input__contato">
+                        <input name="email" id="email" class="input" type="email" placeholder="" data-tipo="email"
+                            required>
+                        <label class="input__label" for="email">Email</label>
+                        <span class="input-mensagem__erro">O campo email não pode estar vazio</span>
+                    </div>
+                    <div class="input__contato">
+                        <input name="assunto" id="assunto" class="input" type="assunto" placeholder="" data-tipo="text"
+                            required>
+                        <label class="input__label" for="email">Assunto</label>
+                        <span class="input-mensagem__erro">O assunto email não pode estar vazio</span>
+                    </div>
+                    <div class="input__contato">
+                        <input name="mensagem" id="mensagem" class="input" type="text" placeholder=""
+                            data-tipo="mensagem" required>
+                        <label class="input__label" for="mensagem">Mensagem</label>
+                        <span class="input-mensagem__erro">A mensagem não pode estar vazio</span>
+                    </div>
+                </fieldset>
+                <button class="botao__contato">Enviar mensagem</button>
+            </form>
+        
+    </section>
 
     <script src="../Script/home.js"></script>
     <script src="../Script/main.js"></script>
+    <script src="../Script/app.js"></script>
 
 </body>
 
