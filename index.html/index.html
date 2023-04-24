@@ -42,7 +42,7 @@
     <link rel="stylesheet" href="../assets/css/formacao/descricao-formacao.css">
     <link rel="stylesheet" href="../assets/css/formacao/data-formacao.css">
     <link rel="stylesheet" href="../assets/css/formacao/formacao-imagem.css">
-    <link rel="stylesheet" href="../assets/css/formacao/titulo-formacao.css">
+    <link rel="stylesheet" href="../assets/css/formacao/formacao-titulo.css">
     <!-- experienciaProfisional -->
     <link rel="stylesheet" href="../assets/css/experienciaProfisional.css">
     <link rel="stylesheet" href="../assets/css/experienciaProfisional/experienciaProfisional-titulo.css">
@@ -54,6 +54,8 @@
     <!-- Contato -->
     <link rel="stylesheet" href="../assets/css/contato.css">
     <link rel="stylesheet" href="../assets/css/contato/input-contato.css">
+    <!-- Rodape -->
+    <link rel="stylesheet" href="../assets/css/rodape.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -68,7 +70,7 @@
 </head>
 
 <body>
-    <header class="cabecalho" id="cabecalho container">
+    <header class="cabecalho container">
         <a class="cabecalho__logo" data-logo href="#">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
                 x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve"
@@ -83,7 +85,7 @@
                     c-0.707,1.647-1.974,1.319-2.541,0l-2.064-7.757h1.745l1.592,6.092l1.584-6.092h1.745L19.206,15.312L19.206,15.312z" />
             </svg>
         </a>
-        <nav data-nav>
+        <nav class="nav">
             <ul class='menu__lista'>
                 <li class="menu__item"><a class="menu__link" href="#">Inicio</a></li>
                 <li class="menu__item"><a class="menu__link" href="#">Sobre mim</a></li>
@@ -93,6 +95,7 @@
                 <li class="menu__item"><a class="menu__link" href="#">Projetos</a></li>
             </ul>
         </nav>
+        <p class="teste">yurimarcelo2018@gmmail.com</p>
     </header>
     <section class='banner' data-banner>
         <div class='banner__img'></div>
@@ -102,7 +105,7 @@
         </div>
     </section>
     <section class="container sobre">
-        <img src="../assets/img/roberta.jpg" alt="Foto de perfil" class="sobre__img">
+        <img src="../assets/img/foto-de-perfil.jpeg" alt="Foto de perfil" class="sobre__img">
         <div class="sobre__conteudo">
             <h1 class="sobre__titulo">Sobre</h1>
             <p class="sobre__descricao">
@@ -253,41 +256,39 @@
                 <h3 class="titulo__projeto">Decodificador de texto</h3>
                 <p class="texto__projeto">Challange alura codificador</p>
                 <div>
-                    <button class="experiencia__botao" href="">Repositorio</button>
-                    <button class="experiencia__botao" href="">Ver demo</button>
+                    <button class="experiencia__botao"><a href="https://lnkd.in/dnm8-2qy">Repositorio</a></button>
+                    <button class="experiencia__botao"><a href="https://lnkd.in/dYyquQmn">Ver demo</a></button>
                 </div>
             </div>
         </article>
         <article class="experiencia">
             <div class="informacao__experiencia">
-                <h3 class="titulo__projeto">Decodificador de texto</h3>
-                <p class="texto__projeto">Challange alura codificador</p>
+                <h3 class="titulo__projeto">Jogo da velha</h3>
+                <p class="texto__projeto">Projeto jogo da velha</p>
                 <div>
-                    <button class="experiencia__botao" href="">Repositorio</button>
-                    <button class="experiencia__botao" href="">Ver demo</button>
+                    <button class="experiencia__botao"><a href="https://lnkd.in/dnm8-2qy">Repositorio</a></button>
+                    <button class="experiencia__botao"><a href="https://lnkd.in/dYyquQmn">Ver demo</a></button>
                 </div>
             </div>
             <div class="caixa__imagem">
-                <img class="experiencia__imagem" src="../assets/img/projeto-criptografia.png" alt="">
+                <img class="experiencia__imagem" src="../assets/img/2023-04-23_20h59_18.png" alt="">
             </div>
         </article>
         <article class="experiencia">
             <div class="caixa__imagem">
-                <img class="experiencia__imagem" src="../assets/img/projeto-criptografia.png" alt="">
+                <img class="experiencia__imagem" src="../assets/img/2023-04-23_21h09_50.png" alt="">
             </div>
             <div class="informacao__experiencia">
-                <h3 class="titulo__projeto">Decodificador de texto</h3>
-                <p class="texto__projeto">Challange alura codificador</p>
+                <h3 class="titulo__projeto">AluraGeek</h3>
+                <p class="texto__projeto">Challange aluraGeek</p>
                 <div>
-                    <button class="experiencia__botao">Repositorio</button>
-                    <button class="experiencia__botao">Ver demo</button>
+                    <button class="experiencia__botao"><a href="#">Em breve</a></button>
+                    <button class="experiencia__botao"><a href="#">Em breve</a></button>
                 </div>
             </div>
         </article>
     </section>
     <section class="container contato">
-       
-        
             <div class="contato__imagem">
                 <img width="464px" height="593" src="../assets/img/pexels-cottonbro-studio-3202235.jpg">
             </div>
@@ -319,22 +320,28 @@
                         <span class="inputMensagem__erro"></span>
                     </div>
                     <div class="input__contato">
-                        <input name="mensagem" id="mensagem" class="input" type="text" placeholder=""
-                            data-tipo="mensagem" required>
+                        <textarea data-tipo="mensagem" class="input" name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
                         <label class="input__label" for="mensagem">Mensagem</label>
                         <span class="inputMensagem__erro"></span>
                     </div>
                 </fieldset>
                 <button class="botao__contato">Enviar mensagem</button>
             </form>
-        
     </section>
+    <footer>
+        <section class="rodape container">
+            <p>Desenvolvido por Yuri Lopes <br> 2023</p>
+            <div class="rodape__imagem">
+                <a class="fa-brands fa-github logo" href="https://github.com/yurimlopz"></a>
+                <a class="fa-brands fa-linkedin logo" href="https://www.linkedin.com/in/yuri-lopes-dev-front-end/"></a>
+            </div>
+        </section>
+    </footer>
 
     <script src="../Script/home.js"></script>
-    <script src="../Script/main.js"></script>
     <script src="../Script/app.js" type="module"></script>
     <script src="../Script/validacao.js" type="module"></script>
 
 </body>
 
-</html>
+</html>''

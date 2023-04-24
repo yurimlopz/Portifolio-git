@@ -1,0 +1,22 @@
+.rodape{
+    padding-top: 1.5rem ;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    border: solid 1px red;
+}
+
+.rodape__imagem{
+    font-size: 2rem;
+    color:var(--azul-marinho);
+}
+
+.logo{
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.logo:visited{
+    color: var(--azul-marinho);
+}
+

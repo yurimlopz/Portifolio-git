@@ -7,5 +7,9 @@
     transition: all .1s ease-in-out;
     text-decoration: none;
     max-width: 105px;
-}   
+}
+
+.experiencia__botao a{
+    text-decoration: none;
+}
     

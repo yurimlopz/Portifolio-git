@@ -4,7 +4,7 @@ export function valida(input) {
 
     if (input.validity.valid){
         input.parentElement.classList.remove('inputContato__invalido');
-        document.querySelector('.inputMensagem__erro').innerHTML = '';
+        input.parentElement.querySelector('.inputMensagem__erro').innerHTML = '';
     }
     else{
             input.parentElement.classList.add('inputContato__invalido');

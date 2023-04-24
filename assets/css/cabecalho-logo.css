@@ -1,5 +1,14 @@
-@media  screen and (max-width:600px) {
-    .cabecalho__logo{
+.teste{
+    display: none;
+}
+
+@media  screen and (max-width:768px) {
+    
+    .nav{
         display: none;
+    }
+
+    .teste{
+        display: block;
     }
 }
