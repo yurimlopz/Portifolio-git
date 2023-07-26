@@ -1,6 +1,10 @@
 export function valida(input) {
     const tipoDeInput = input.dataset.tipo
 
+     if(validadores[tipoDeInput]) {
+        validadores[tipoDeInput](input)
+    }
+
 
     if (input.validity.valid){
         input.parentElement.classList.remove('inputContato__invalido');
