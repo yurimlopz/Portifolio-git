@@ -21,8 +21,8 @@
 }
 
 .banner__img{
-    background: url('/assets/img/nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg') no-repeat center / cover;
     width: 100%;
+    min-width: 900px;
     height: calc(100vh - 70px);
 }
 
@@ -30,6 +30,7 @@
 
     .banner__img{
         height: calc(100vh - 51px);
+       
     }
     
 }
@@ -38,6 +39,7 @@
 
     .banner__img{
         height: calc(100vh - 72px);
+      
     }
     
 }
