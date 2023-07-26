@@ -1,4 +1,4 @@
-.teste{
+.email{
     display: none;
 }
 
@@ -8,7 +8,7 @@
         display: none;
     }
 
-    .teste{
+    .email{
         display: block;
     }
 }

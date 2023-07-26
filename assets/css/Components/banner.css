@@ -1,0 +1,43 @@
+.banner__conteudo{
+    height: auto;
+    color: var(--branco);
+    left: 50%;
+    position: absolute;
+    padding: 2rem;
+    text-align: center;
+    text-shadow: 0 4px 4px rgb(0 0 0 / 75%);
+    top: 50%;
+    transform: translate(-50%, -50%) ;
+}
+
+.banner__titulo{
+    color: var(--branco);
+    font-size: 3.0625rem;
+}
+
+.banner__descricao{
+    color: var(--branco);
+    font-size: 2.0625rem;
+}
+
+.banner__img{
+    background: url('/assets/img/nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg') no-repeat center / cover;
+    width: 100%;
+    height: calc(100vh - 70px);
+}
+
+@media screen and (min-width> 0) {
+
+    .banner__img{
+        height: calc(100vh - 51px);
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+
+    .banner__img{
+        height: calc(100vh - 72px);
+    }
+    
+}
